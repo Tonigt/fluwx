@@ -117,7 +117,7 @@ class WeChatLaunchMiniProgramResponse extends BaseWeChatResponse {
 
 class WeChatPaymentResponse extends BaseWeChatResponse {
   final int type;
-  final String extData;
+  final String? extData;
 
   WeChatPaymentResponse.fromMap(Map map)
       : type = map["type"],
